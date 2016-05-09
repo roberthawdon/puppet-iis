@@ -39,6 +39,7 @@ iis_apppool {'Test3':
   recycling_periodicrestart_privatememory  => '',
   recycling_periodicrestart_requests       => '',
   recycling_periodicrestart_time           => '',
+  recycling_periodicrestart_schedule       => '',
   failure_loadbalancercapabilities         => '',
   failure_orphanworkerprocess              => '',
   failure_orphanactionexe                  => '',
