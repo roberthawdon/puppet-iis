@@ -133,6 +133,10 @@ Puppet::Type.newtype(:iis_apppool) do
     desc ""
   end
 
+  newproperty(:recycling_periodicrestart_schedule, :parent => Puppet::IisProperty) do
+    desc ""
+  end
+
   newproperty(:failure_loadbalancercapabilities, :parent => Puppet::IisProperty) do
     desc ""
   end
